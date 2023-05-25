@@ -10,6 +10,10 @@
   --content-width: 90%; 
 }
 
+body {
+  margin: 0px;
+}
+
 @media screen and (min-width: 600px) {
   :root {
     --content-width: 75%;
