@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #121217;
+  z-index: 100;
+  width: 100%;
+
+  .header-title {
+    float: left;
+    margin-left: 20px;
+    color: #D0D8DF;
+  }
+
+  .header-nav {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .nav-list {
+      list-style: none;
+      float: right;
+      margin-right: 20px;
+
+      .nav-item {
+        display: inline-block;
+        margin-left: 20px;
+
+        .active {
+          font-weight: bold;
+        }
+
+        a {
+          color: #D0D8DF;
+          text-decoration: none;
+
+          &:hover {
+            color: #dddddda9;
+          }
+        }
+      }
+    }
+  }
+}
