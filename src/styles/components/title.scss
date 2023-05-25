@@ -1,0 +1,23 @@
+.title-section {
+  text-align: center;
+  padding: 20px;
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; // Makes the image circular
+    object-fit: cover; // Ensures the image covers the full area
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #979797;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #d0d0d0;
+    font-size: 16px;
+  }
+}
