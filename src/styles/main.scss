@@ -1,8 +1,8 @@
+@import 'base/layout';
 
 @import 'layout/header';
 @import 'layout/footer';
-@import 'layout/layout';
-
-@import 'components/about';
-@import 'components/title';
-@import 'components/experience'
+@import 'layout/about';
+@import 'layout/title';
+@import 'layout/experience';
+@import 'layout/contact';
