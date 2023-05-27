@@ -44,42 +44,44 @@ const Contact = () => {
 
   return (
     <>
-
-        <div>
+        <div className="contact-form">
           {showAlert && <CustomAlert />}
           <form onSubmit={handleSubmit}>
-            <p>
+            <p className="form-description">
               Connect with Me! Submit Your Details and Send a Direct Email to
               My Inbox.
             </p>
-            <div>
+            <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input
                 type="text"
                 id="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
+                className="form-input"
               />
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="email">Email:</label>
               <input
                 type="email"
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                className="form-input"
               />
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="message">Message:</label>
               <textarea
                 id="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 rows={5}
+                className="form-input"
               ></textarea>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" className="form-submit">Submit</button>
           </form>
         </div>
     </>
