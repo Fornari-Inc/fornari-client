@@ -1,11 +1,11 @@
-import Layout from './layout/Layout';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
-import Contact from './components/Contact';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Title from './components/Title';
+import Layout from './base/Layout';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
+import About from './layout/About';
+import Contact from './layout/Contact';
+import Experience from './layout/Experience';
+import Projects from './layout/Projects';
+import Title from './layout/Title';
 
 function App() {
   return (
